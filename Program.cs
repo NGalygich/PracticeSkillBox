@@ -23,7 +23,7 @@ namespace project{
         public static void Task_2(float points_program, float points_math, float points_physics){
             float points_sum = points_program + points_math + points_physics;
             int mean = Convert.ToInt32(Math.Round(points_sum/3));
-            Console.WriteLine(mean);
+            Console.WriteLine($"Средний бал по всем предметам: {mean}");
         }
     }
 }
