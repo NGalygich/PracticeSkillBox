@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace project{
+﻿namespace project{
     public class Program{
         public static void Main(){
             Student nikita = new Student();
